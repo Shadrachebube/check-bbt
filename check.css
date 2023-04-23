@@ -1,0 +1,38 @@
+
+body{
+    height: 100vh;
+}
+/* .div{ position: absolute; */
+.div{
+     height: 200px;
+     width: 200px;
+     background: blue;
+     margin: 0 auto;
+     text-align: center;
+     color: whitesmoke;
+   
+     /* top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%); */
+     display: none;  
+}
+button{
+    height: 30px;
+    width: 70px;
+    background: rgb(253, 90, 84);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    text-shadow: -1px -2px 3px rgb(0, 0, 0);
+    box-shadow:-1px -2px 3px rgb(0, 0, 0);
+
+}
+
+#me{
+    display: none;
+}
+
+#me:checked +.div{
+    display: block;
+}
